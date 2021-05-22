@@ -1,0 +1,13 @@
+user
+
+-id INT PK NN AI
+-reg_time DATETIME NN
+-session_id VARCHAR(255) NN
+-name VARCHAR(255) NN
+
+message
+
+-id INT PK NN AI
+-text VARCHAR(255) NN
+-send_time DATETIME NN
+-user_id FK
