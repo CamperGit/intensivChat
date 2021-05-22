@@ -18,17 +18,15 @@
 Ответ: "messages": [
     {
         "id": 1,
-        "text": "Dima"
-        "send_date": 22.05.2021
-        "send_time": 14:10
-        "user_id": 1
+        "text": "text",
+        "time": "14:12 22.05.2021",
+        "username": "dima"
     },
     {
         "id": 2,
-        "text": "text"
-        "send_date": 22.05.2021
-        "send_time": 14:12
-        "user_id": 1
+        "text": "text2",
+        "time": "14:14 22.05.2021",
+        "username": "dima"
     }
 ]
 
