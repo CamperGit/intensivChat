@@ -1,0 +1,60 @@
+.main
+{
+    width: 1190px;
+    height: 860px;
+    background-color: #edecea;
+    border-radius: 10px;
+    padding: 15px;
+    display: flex;
+    align-items: stretch;
+    justify-content: stretch;
+}
+
+.left
+{
+    width: 100%;
+}
+
+.message-list{
+    background-color: white;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    height: 700px;
+    padding: 10px;
+    overflow-y: scroll;
+}
+
+.new-message {
+    height: 120px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    display: flex;
+}
+
+.new-message button{
+    background-color: blue;
+    color: white;
+    border: 0;
+    padding: 15px 45px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.new-message textarea {
+    border: 0;
+    width: 700px;
+    height: 100%;
+}
+
+.right
+{
+    width: 400px;
+    background-color: white;
+    border-radius: 10px;
+    margin-left: 10px;
+    padding: 10px;
+}
+.user-item
+{
+    margin-bottom: 10px;
+}

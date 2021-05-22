@@ -40,8 +40,10 @@
 Запрос: -name, reg_time, session_id
 Ответ: { "result": true}
 
+5)GET /api/auth
 
-
+Запрос: -
+Ответ: { "result": true}
 
 
 
