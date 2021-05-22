@@ -1,0 +1,49 @@
+1)GET /api/users — получение списка пользователей
+
+Запрос: -
+Ответ: "users": [
+    {
+        "id": 1,
+        "name": "Dima"
+    },
+    {
+        "id": 2,
+        "name": "Dima2"
+    }
+]
+
+2)GET /api/messages — получение списка сообщений
+
+Запрос: -
+Ответ: "messages": [
+    {
+        "id": 1,
+        "text": "Dima"
+        "send_date": 22.05.2021
+        "send_time": 14:10
+        "user_id": 1
+    },
+    {
+        "id": 2,
+        "text": "text"
+        "send_date": 22.05.2021
+        "send_time": 14:12
+        "user_id": 1
+    }
+]
+
+3)POST /api/messages — отправка сообщения
+
+Запрос: - текст сообщения
+Ответ: { "result": true}
+
+4)POST /api/users — создание пользователя при логине
+
+Запрос: -name, reg_time, session_id
+Ответ: { "result": true}
+
+
+
+
+
+

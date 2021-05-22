@@ -8,6 +8,6 @@ user
 message
 
 -id INT PK NN AI
--text VARCHAR(255) NN
+-text TEXT NN
 -send_time DATETIME NN
--user_id FK
+-user_id INT NN FK
